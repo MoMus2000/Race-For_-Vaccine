@@ -3,7 +3,7 @@ import pandas as pd
 from pprint import pprint
 import time
 
-ts = TimeSeries(key='R14BYHLTCZN8TLFV' , output_format='pandas')
+ts = TimeSeries(key='' , output_format='pandas')
 Moderna, meta_data = ts.get_daily(symbol = 'MRNA', outputsize = 'full')
 Gillead, meta_data = ts.get_daily(symbol = 'GILD', outputsize = 'full')
 Regeneron, meta_data = ts.get_daily(symbol = 'REGN', outputsize = 'full')
